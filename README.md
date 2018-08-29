@@ -1,5 +1,7 @@
 # Mock functionality for the operator framework
 
+[![Build Status](https://travis-ci.org/bakito/operator-sdk-mock.svg?branch=master)](https://travis-ci.org/bakito/operator-sdk-mock)
+
 ## Usage
 
 ### Handler
