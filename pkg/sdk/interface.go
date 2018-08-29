@@ -35,6 +35,7 @@ func (s *OperatorSDK) Get(object sdk.Object) error {
 func (s *OperatorSDK) Patch(object sdk.Object, pt types.PatchType, patch []byte) error {
 	return sdk.Patch(object, pt, patch)
 }
-func (s *OperatorSDK) List(namespace string, into sdk.Object, opts sdk.ListOption) error {
-	return sdk.List(namespace, into, opts)
+
+func (s *OperatorSDK) List(namespace string, into sdk.Object, opts ...sdk.ListOption) error {
+	return sdk.List(namespace, into, opts...)
 }
