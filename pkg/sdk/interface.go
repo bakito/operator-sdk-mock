@@ -12,7 +12,7 @@ type SdkInterface interface {
 	Create(object sdk.Object) error
 	Get(object sdk.Object) error
 	Patch(object sdk.Object, pt types.PatchType, patch []byte) error
-	List(namespace string, into sdk.Object, opts sdk.ListOption) error
+	List(namespace string, into sdk.Object, opts ...sdk.ListOption) error
 }
 
 type OperatorSDK struct {
