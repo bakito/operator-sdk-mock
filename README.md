@@ -1,8 +1,9 @@
-# Mock functionality for the operator framework
+# Mock functionality for the operator SDK
 
 [![Build Status](https://travis-ci.org/bakito/operator-sdk-mock.svg?branch=master)](https://travis-ci.org/bakito/operator-sdk-mock)
 
 ## Usage
+This module provides an interface over the [Opererator SDK](https://github.com/operator-framework/operator-sdk) to allow writing mock tests by use of [gomock](https://github.com/golang/mock).
 
 ### Handler
 
@@ -27,6 +28,8 @@ func (h *Handler) Handle(ctx context.Context, event sdk.Event) error {
 ```
 
 ## Testing
+
+See the [examples](./exmple/pkg/stub).
 
 ```go
 
