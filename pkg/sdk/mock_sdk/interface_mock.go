@@ -5,10 +5,11 @@
 package mock_stub
 
 import (
+	reflect "reflect"
+
 	gomock "github.com/golang/mock/gomock"
 	sdk "github.com/operator-framework/operator-sdk/pkg/sdk"
 	types "k8s.io/apimachinery/pkg/types"
-	reflect "reflect"
 )
 
 // MockSdkInterface is a mock of SdkInterface interface
@@ -95,7 +96,7 @@ func (mr *MockSdkInterfaceMockRecorder) Patch(object, pt, patch interface{}) *go
 }
 
 // List mocks base method
-func (m *MockSdkInterface) List(namespace string, into sdk.Object, opts sdk.ListOption) error {
+func (m *MockSdkInterface) List(namespace string, into sdk.Object, opts ...sdk.ListOption) error {
 	ret := m.ctrl.Call(m, "List", namespace, into, opts)
 	ret0, _ := ret[0].(error)
 	return ret0
