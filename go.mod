@@ -28,7 +28,7 @@ require (
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
-	github.com/operator-framework/operator-sdk v0.0.6-0.20180828201340-51288eb7f0a0 // master (51288eb7f0a014fc9a43a81eabb14cc0bde11d7d)
+	github.com/operator-framework/operator-sdk v0.0.6 // v0.0.6
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/prometheus/client_golang v0.8.0 // indirect
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910 // indirect
