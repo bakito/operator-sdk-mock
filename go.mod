@@ -28,7 +28,7 @@ require (
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
-	github.com/operator-framework/operator-sdk v0.0.6-0.20180828201340-51288eb7f0a0 // master (51288eb7f0a014fc9a43a81eabb14cc0bde11d7d)
+	github.com/operator-framework/operator-sdk v0.0.6 // v0.0.6
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/prometheus/client_golang v0.8.0 // indirect
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910 // indirect
@@ -43,8 +43,7 @@ require (
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.2.1 // indirect
-	k8s.io/api v0.0.0-20180816132701-f5c295feaba2 // kubernetes-1.9.10
-	k8s.io/apimachinery v0.0.0-20180627070101-fb40df2b5029 // kubernetes-1.9.10
-	k8s.io/client-go v0.0.0-20180806133048-cabe5c16b786 // kubernetes-1.9.10
-	k8s.io/kube-openapi v0.0.0-20180731170545-e3762e86a74c // indirect
+	k8s.io/api v0.0.0-20180308224125-73d903622b73 // kubernetes-1.10.1
+	k8s.io/apimachinery v0.0.0-20180228050457-302974c03f7e // kubernetes-1.10.1
+	k8s.io/client-go v2.0.0-alpha.0.0.20180406111602-989be4278f35+incompatible // kubernetes-1.10.1
 )
